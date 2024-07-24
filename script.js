@@ -7,3 +7,4 @@ function removeSelectedColor() {
         colorSelect.remove(selectedIndex);
     }
 }
+document.querySelector('input[type="button"]').addEventListener('click', removeSelectedColor);
